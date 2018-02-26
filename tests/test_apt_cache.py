@@ -85,7 +85,8 @@ class TestAptCache(unittest.TestCase):
                 r = pkg.candidate.record
                 self.assertEqual(r['Package'], pkg.shortname)
                 self.assertTrue('Version' in r)
-                self.assertTrue(len(r['Description']) > 0)
+                if 'Description' in r:
+                    self.assertTrue(len(r['Description']) > 0)
                 self.assertTrue(
                     str(r).startswith('Package: %s\n' % pkg.shortname))
 
