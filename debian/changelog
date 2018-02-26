@@ -1,3 +1,9 @@
+python-apt (1.1.0~beta1ubuntu0.16.04.1bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Mon, 26 Feb 2018 09:43:07 +0000
+
 python-apt (1.1.0~beta1ubuntu0.16.04.1) xenial; urgency=medium
 
   * Refreshed mirror list for upcoming point-release.
