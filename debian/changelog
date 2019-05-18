@@ -1,3 +1,9 @@
+python-apt (1.1.0~beta1ubuntu0.16.04.4bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 18 May 2019 04:31:32 +0200
+
 python-apt (1.1.0~beta1ubuntu0.16.04.4) xenial; urgency=medium
 
   * apt.Cache: Fix (un)locking of archives (Closes: #922416) (LP: #1826870)
