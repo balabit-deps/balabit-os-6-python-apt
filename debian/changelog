@@ -1,3 +1,9 @@
+python-apt (1.1.0~beta1ubuntu0.16.04.5bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Thu, 27 Jun 2019 11:50:28 +0200
+
 python-apt (1.1.0~beta1ubuntu0.16.04.5) xenial; urgency=medium
 
   * Fix erronous use of apt_pkg.Error
